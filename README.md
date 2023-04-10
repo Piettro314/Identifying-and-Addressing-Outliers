@@ -28,7 +28,7 @@ profile.to_notebook_iframe()
 
 # Further analysis
 
-A boxplot diagram is being utilized to conduct a more detailed examination of the skewed data that was identified using the ydata_profiling library.
+A boxplot diagram is then utilized to conduct a more detailed examination of the skewed data that was identified using the ydata_profiling library.
 
 <div>
 <img src="https://github.com/Piettro314/Identifying-and-addressing-outliers-/blob/main/media%20content/Box%20plot%20original.png" align="center" width="100%">
