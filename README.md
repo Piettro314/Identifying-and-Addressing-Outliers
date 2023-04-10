@@ -1,1 +1,1 @@
-# Identifying-and-addressing-outliters-
+# Identifying-and-addressing-outliers-
