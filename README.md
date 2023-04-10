@@ -56,5 +56,5 @@ data_outliers.to_csv('./data/euBnB_outliers.csv', index=False)
 * [pandas](https://pandas.pydata.org/)
 * [seaborn](https://seaborn.pydata.org/)
 
-# Conclusion
+# Remarks
 When embarking on a data science project, it is crucial to identify any potential challenges from the dataset. While outliers may not necessarily cause significant issues in certain cases, it is still worthwhile to examine them after they have been identified to determine their potential impact on the overall outcome of the project.
