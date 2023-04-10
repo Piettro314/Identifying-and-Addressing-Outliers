@@ -1,4 +1,4 @@
-<h1 align="center" style="color:MediumSeaGreen;"> <b> Technique to identify & address outliers </b></h1>
+<h1 align="center" style="color:MediumSeaGreen;"> <b> Technique To Identify & Address Outliers </b></h1>
 
 # Preface
 
