@@ -23,7 +23,7 @@ profile.to_notebook_iframe()
 ```
 
 <div>
-<img src="https://github.com/Piettro314/Loading-Multiple-Files-In-Python/blob/main/Content/Python.png" align="center" width="100%">
+<img src="https://github.com/Piettro314/Identifying-and-addressing-outliers-/blob/main/media%20content/ydataProfile.png" align="center" width="100%">
 </div>
 
 # Further analysis
@@ -31,7 +31,7 @@ profile.to_notebook_iframe()
 A boxplot diagram is being utilized to conduct a more detailed examination of the skewed data that was identified using the ydata_profiling library.
 
 <div>
-<img src="https://github.com/Piettro314/Loading-Multiple-Files-In-Python/blob/main/Content/Python.png" align="center" width="100%">
+<img src="https://github.com/Piettro314/Identifying-and-addressing-outliers-/blob/main/media%20content/Box%20plot%20original.png" align="center" width="100%">
 </div>
 
 After the identification of the outliers, the subsequent code was utilized to eliminate and preserve them in a CSV file for future analysis.
@@ -42,12 +42,12 @@ data_outliers.shape
 
 data= data.drop(data_outliers.index)
 print(f'Data for model: {data.shape}, \nData outliers: {data_outliers.shape}')
-data_outliers.to_csv('C./data/euBnB_outliers.csv', index=False)
+data_outliers.to_csv('./data/euBnB_outliers.csv', index=False)
 ```
 ### Results
 
 <div>
-<img src="https://github.com/Piettro314/Loading-Multiple-Files-In-Python/blob/main/Content/Python.png" align="center" width="100%">
+<img src="https://github.com/Piettro314/Identifying-and-addressing-outliers-/blob/main/media%20content/Results.png" align="center" width="100%">
 </div>
 
 # Technologies used
